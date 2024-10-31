@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yuki-tangolevel
+    name: suugaku-kakitome
     env: python
     region: Oregon
     plan: free
