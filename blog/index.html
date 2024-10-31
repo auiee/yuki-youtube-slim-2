@@ -27,9 +27,9 @@
             margin-bottom: 20px;
         }
         input[type="text"] {
-            flex: 1; /* Take remaining space */
+            flex: 1;
             padding: 10px;
-            margin-right: 10px; /* Space between input and button */
+            margin-right: 10px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
@@ -50,6 +50,12 @@
             background-color: #ecf0f1;
             border: 1px solid #bdc3c7;
             border-radius: 4px;
+        }
+        section {
+            margin-top: 20px;
+        }
+        h2 {
+            color: #2980b9;
         }
     </style>
     <script>
@@ -76,7 +82,42 @@
             <input id="word" type="text" placeholder="単語を入力してください">
             <input type="button" onclick="getlevel()" value="検索">
         </div>
-        <div id="info"></div>
+
+        <section>
+            <h2>三角形</h2>
+            <p>面積: A = (底辺 × 高さ) / 2</p>
+            <p>内接円の半径 r は、r = A / s (s = (a + b + c) / 2) で求められます。</p>
+
+            <h2>四角形</h2>
+            <p>面積: A = 幅 × 高さ</p>
+
+            <h2>台形</h2>
+            <p>面積: A = (上底 + 下底) × 高さ / 2</p>
+
+            <h2>正方形</h2>
+            <p>面積: A = 一辺の長さ × 一辺の長さ</p>
+
+            <h2>ヘロンの公式</h2>
+            <p>三角形の面積: A = √(s × (s - a) × (s - b) × (s - c)) （s = (a + b + c) / 2）</p>
+
+            <h2>比例のグラフ</h2>
+            <p>y = kx (kは比例定数)</p>
+
+            <h2>反比例のグラフ</h2>
+            <p>y = k/x (kは反比例定数)</p>
+
+            <h2>重心</h2>
+            <p>三角形の重心は、3つの頂点の座標の平均で求められます。</p>
+
+            <h2>外心</h2>
+            <p>三角形の外接円の中心で、3つの辺の垂直二等分線の交点です。</p>
+
+            <h2>垂心</h2>
+            <p>三角形の3つの頂点から対辺に引いた垂線の交点です。</p>
+
+            <h2>内心</h2>
+            <p>三角形の内接円の中心で、3つの辺からの距離が等しい点です。</p>
+        </section>
     </div>
 </body>
 </html>
